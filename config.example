@@ -1,0 +1,28 @@
+######################## WRITE DATABASE #############################
+DB_HOST=rll_service_api_mysql
+DB_USER=root
+DB_PASSWORD=rll-order_password
+DB_PORT=3306
+DB_NAME=rll-order
+######################## READ DATABASE #############################
+DB_USER_READ=rll-order_username
+DB_PASSWORD_READ=rll-order_password
+DB_HOST_READ=rll_service_api_mysql
+DB_PORT_READ=3306
+DB_NAME_READ=rll-order
+
+####################################################################
+# AWS CONFIGURATION TOOLS
+####################################################################
+AWS_ACCESS_KEY=
+AWS_ACCESS_SECRET=
+AWS_ACCESS_AREA=ap-southeast-1
+
+
+GITHUB_ORGANIZATION_NAME=orn-id
+GITHUB_REPO_MIGRATION=orn-migration-repo
+GITHUB_REPO_SEEDER=orn-seeder-repo
+GITHUB_GOLANG_KIT_NAME=orn-ms-golang-kit
+GITHUB_PYTHON_KIT_NAME=orn-ms-python-kit
+GITHUB_NODEJS_KIT_NAME=
+GITHUB_SSH_KEYS=
