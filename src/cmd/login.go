@@ -10,11 +10,11 @@ import (
 func (handler *CLIMapping) Login() cli.Command {
 	command := cli.Command{}
 	command.Name = "login"
-	command.Usage = "ssm [option]"
+	command.Usage = "logout [option]"
 	command.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:        "path, p",
-			Usage:       "SSM path",
+			Usage:       "QR path",
 			Destination: &Args.QrPath,
 		},
 		// cli.BoolFlag{
