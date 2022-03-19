@@ -1,4 +1,4 @@
-# ORN KIT
+# WA CLIs
 This kit support :
 ```
 1. Golang version 1.13.x or latest
