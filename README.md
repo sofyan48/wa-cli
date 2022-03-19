@@ -2,8 +2,6 @@
 This kit support :
 ```
 1. Golang version 1.13.x or latest
-2. Python version 3.7.x or latest
-3. NodeJS latest
 ```
 
 For futher information:
